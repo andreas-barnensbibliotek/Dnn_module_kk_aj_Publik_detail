@@ -5,3 +5,4 @@ D:\wwwroot\dnndev_v902.me\bin\Dnn_module_kk_aj_Publik_detail.xml
 D:\wwwroot\dnndev_v902.me\DesktopModules\Dnn_module_kk_aj_Publik_detail\obj\Release\Dnn_module_kk_aj_Publik_detail.dll
 D:\wwwroot\dnndev_v902.me\DesktopModules\Dnn_module_kk_aj_Publik_detail\obj\Release\Dnn_module_kk_aj_Publik_detail.xml
 D:\wwwroot\dnndev_v902.me\DesktopModules\Dnn_module_kk_aj_Publik_detail\obj\Release\Dnn_module_kk_aj_Publik_detail.pdb
+D:\wwwroot\dnndev_v902.me\DesktopModules\Dnn_module_kk_aj_Publik_detail\obj\Release\Dnn_module_kk_aj_Publik_detail.vbprojResolveAssemblyReference.cache

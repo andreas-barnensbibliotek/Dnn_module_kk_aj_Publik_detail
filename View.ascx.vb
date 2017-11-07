@@ -12,6 +12,8 @@ Imports DotNetNuke.Entities.Modules.Actions
 Imports DotNetNuke.Entities.Modules
 Imports DotNetNuke.Services.Exceptions
 Imports DotNetNuke.Services.Localization
+Imports DotNetNuke.Entities.Users
+Imports kk_aj_adminConfig
 
 ''' <summary>
 ''' The View class displays the content
@@ -38,10 +40,11 @@ Public Class View
     ''' </history>
     ''' -----------------------------------------------------------------------------
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        Dim conf As New viewstartupconfig
         Try
             Dim incomingID As Integer = Request.QueryString("arrid")
             kk_aj_CurrentArrid.InnerHtml = incomingID.ToString
-
+            kk_aj_CurrentPageType.InnerHtml = conf.getcurrentPageView(ModuleId)
         Catch exc As Exception
             Exceptions.ProcessModuleLoadException(Me, exc)
         End Try

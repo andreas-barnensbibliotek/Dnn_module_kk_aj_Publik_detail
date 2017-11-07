@@ -1,9 +1,9 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="kulturkatalogenpublik.aj.kk_aj_Publik_DetailDnn_module_kk_aj_Publik_detail.View" %>
-<div class="row">
+<div class="row detailblock">
     <div class="small-12 columns">
         <div class="row">
             <div class="medium-12 columns arrRubrikblock">
-                <h1 class="granska_rubrik">Rubrik</h1>                            
+                <h1 class="granska_rubrik"><div class="kk_aj_loader"></div></h1>                            
             </div>
         </div>
         <!-- Artikel START -->
@@ -12,12 +12,13 @@
 
                         <div class="medium-8 columns artmaincontent">
                             <div class="field field-name-field-artikelbild field-type-image field-label-hidden field-wrapper">
-                                <img class="granska_pressentationsbild" src="http://www.kulturivast.se/sites/default/files/karlsson_h_0.jpg" />                           
+                                <img class="granska_pressentationsbild" src="" />                          
+                                
                                 <div class="row">
-                                    <div class="medium-12 columns arrmainfoto"><span>Foto: </span> Nisse Hult</div>                                    
+                                    <div class="medium-12 columns arrmainfoto"><span>Foto: </span> </div>                                    
                                 </div>
                             </div>
-                            <h2 class="granska_underrubrik">Underrubrik</h2>
+                            <h2 class="granska_underrubrik"><div class="kk_aj_loader"></div></h2>
                             <div class="body field">
                                 <div class="granska_innehall">                            
                                 </div>
@@ -25,7 +26,8 @@
                             
                            <div class="arrexempelblock granska_exempel" >
                                <h3 class="label-above">Exempel</h3>
-                               <hr class="linje">                              
+                               <hr class="linje">
+                               <div class="kk_aj_loader"></div>                              
                                 <ul class="arrExempellist">                                    
                                 </ul>
                            </div>  
@@ -36,46 +38,26 @@
                                 <div class="artsidecontainer granska_Fakta_mainblock">
                                     <h3>Fakta</h3>                                
                                     <div class="row">
-                                        <div class="small-12 medium-6 columns faktalabel">     
-                                            Arrangörsstöd
-                                        </div>
-                                        <div class="small-12 medium-6 columns">     
-                                            Arrangören betalar 50%
-                                        </div>
+                                        <div class="kk_aj_loader"></div>
                                     </div>     
                                 </div>
                                 <div class="artsidecontainer granska_lokal_mainblock">
                                     <h3>Lokal</h3>
                                     <div class="row">
-                                        <div class="small-12 medium-6 columns faktalabel">     
-                                            Arrangörsstöd
-                                        </div>
-                                        <div class="small-12 medium-6 columns">     
-                                            Arrangören betalar 50%
-                                        </div>
+                                        <div class="kk_aj_loader"></div>
                                     </div>    
                                 </div>
                                 <div class="artsidecontainer granska_Publik_mainblock">
                                     <h3>Publik</h3>
                                     <div class="row">
-                                        <div class="small-12 medium-6 columns faktalabel">     
-                                            Arrangörsstöd
-                                        </div>
-                                        <div class="small-12 medium-7 columns">     
-                                            Arrangören betalar 50%
-                                        </div>
+                                        <div class="kk_aj_loader"></div>
                                     </div>        
                                     
                                 </div>
                                 <div class="artsidecontainer granska_Ekonomi_mainblock">
                                     <h3>Ekonomi</h3>
                                     <div class="row">
-                                        <div class="small-12 medium-5 columns faktalabel">     
-                                            Arrangörsstöd
-                                        </div>
-                                        <div class="small-12 medium-7 columns">     
-                                            Arrangören betalar 50%
-                                        </div>
+                                        <div class="kk_aj_loader"></div>
                                     </div>       
                                     
                                 </div>
@@ -87,7 +69,7 @@
                                         Organisation
                                     </div>
                                     <div class="small-12 medium-7 columns">     
-                                        <span class="granska_Utovare_Organisation">testorg</span>
+                                        <span class="granska_Utovare_Organisation"></span>
                                     </div>
                                 </div>
                                 <div class="row granska_Utovare_namn_block">
@@ -95,7 +77,7 @@
                                         Kontaktperson
                                     </div>
                                     <div class="small-12 medium-7 columns">     
-                                        <span class="granska_Utovare_namn">Andreas Josefsson</span>
+                                        <span class="granska_Utovare_namn"></span>
                                     </div>
                                 </div>
                                 <div class="row granska_Utovare_Adress_block">
@@ -103,7 +85,7 @@
                                         Adress
                                     </div>
                                     <div class="small-12 medium-7 columns">     
-                                        <span class="granska_Utovare_Adress">Sturegatan 12</span>
+                                        <span class="granska_Utovare_Adress"></span>
                                     </div>
                                 </div>
                                     <div class="row granska_Utovare_postort_block">
@@ -111,7 +93,7 @@
                                         Postort
                                     </div>
                                     <div class="small-12 medium-7 columns">     
-                                        <span class="granska_Utovare_postort">534 90 Ulricehamn</span>
+                                        <span class="granska_Utovare_postort"></span>
                                     </div>
                                 </div>                                          
                                 <div class="row granska_Utovare_tfn_block">
@@ -119,7 +101,7 @@
                                         Telefon
                                     </div>
                                     <div class="small-12 medium-7 columns">     
-                                        <span class="granska_Utovare_tfn">070- 18 32 15</span>
+                                        <span class="granska_Utovare_tfn"></span>
                                     </div>
                                 </div>
                                 <div class="row granska_Utovare_epost_block">
@@ -128,17 +110,16 @@
                                     </div>
                                     <div class="small-12 medium-12 columns">     
                                         <span class="granska_Utovare_epost">
-                                            <a href="mailto:andreas.josefsson@kulturivast.se">andreas.josefsson@kulturivast.se</a>
-                                        </span>
+                                            </span>
                                     </div>
                                 </div>         
                                 <div class="row granska_Utovare_hemsida_block">
                                     <div class="small-12 medium-12 columns faktalabel">     
-                                        Hemsida
+                                       Hemsida
                                     </div>
                                     <div class="small-12 medium-12 columns">     
                                         <span class="granska_Utovare_hemsida">
-                                            <a href="www.minegenhemsida.se">www.minegenhemsida.se</a>
+                                            
                                         </span>
                                     </div>
                                 </div>                                                              
@@ -147,15 +128,15 @@
                                 <h3>Dela</h3>                                
                                     <div id="share-buttons">
     
-                                        <!-- Buffer -->
+                                        <!-- Buffer 
                                         <a href="https://bufferapp.com/add?url=https://simplesharebuttons.com&amp;text=Simple Share Buttons" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/buffer.png" alt="Buffer" />
-                                        </a>
+                                        </a>-->
     
-                                        <!-- Digg -->
+                                        <!-- Digg
                                         <a href="http://www.digg.com/submit?url=https://simplesharebuttons.com" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/diggit.png" alt="Digg" />
-                                        </a>
+                                        </a> -->
     
                                         <!-- Email -->
                                         <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
@@ -167,55 +148,55 @@
                                             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
                                         </a>
     
-                                        <!-- Google+ -->
+                                        <!-- Google+ 
                                         <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
-                                        </a>
+                                        </a>-->
     
-                                        <!-- LinkedIn -->
+                                        <!-- LinkedIn 
                                         <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
-                                        </a>
+                                        </a>-->
     
-                                        <!-- Pinterest -->
+                                        <!-- Pinterest 
                                         <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
                                             <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
-                                        </a>
+                                        </a>-->
     
                                         <!-- Print -->
                                         <a href="javascript:;" onclick="window.print()">
                                             <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" />
                                         </a>
     
-                                        <!-- Reddit -->
+                                        <!-- Reddit 
                                         <a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
-                                        </a>
+                                        </a>-->
     
-                                        <!-- StumbleUpon-->
+                                        <!-- StumbleUpon
                                         <a href="http://www.stumbleupon.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/stumbleupon.png" alt="StumbleUpon" />
-                                        </a>
+                                        </a>-->
     
-                                        <!-- Tumblr-->
+                                        <!-- Tumblr
                                         <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
-                                        </a>
+                                        </a>-->
      
-                                        <!-- Twitter -->
+                                        <!-- Twitter 
                                         <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-                                        </a>
+                                        </a>-->
     
-                                        <!-- VK -->
+                                        <!-- VK
                                         <a href="http://vkontakte.ru/share.php?url=https://simplesharebuttons.com" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/vk.png" alt="VK" />
-                                        </a>
+                                        </a> -->
     
-                                        <!-- Yummly -->
+                                        <!-- Yummly 
                                         <a href="http://www.yummly.com/urb/verify?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/yummly.png" alt="Yummly" />
-                                        </a>
+                                        </a>-->
 
                                     </div>
                             </div>
@@ -231,5 +212,6 @@
 
 
 <div id="kk_aj_conf" style="">
-    <span id="kk_aj_CurrentArrid" class="kk_aj_CurrentArrid" runat="server"></span>    
+    <span id="kk_aj_CurrentArrid" class="kk_aj_CurrentArrid" runat="server"></span>  
+    <span id="kk_aj_CurrentPageType" class="kk_aj_CurrentPageType" runat="server"></span>  
 </div>

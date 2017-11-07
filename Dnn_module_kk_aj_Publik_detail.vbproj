@@ -49,6 +49,11 @@
       <HintPath>..\..\bin\DotNetNuke.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="kk_aj_adminConfig, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\kk_aj_adminConfig.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\bin\Microsoft.ApplicationBlocks.Data.dll</HintPath>
