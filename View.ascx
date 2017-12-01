@@ -3,7 +3,10 @@
     <div class="small-12 columns">
         <div class="row">
             <div class="medium-12 columns arrRubrikblock">
-                <h1 class="granska_rubrik"><div class="kk_aj_loader"></div></h1>                            
+               <div class="granska_rubrik_border">
+                <h1 class="granska_rubrik"><div class="kk_aj_loader"></div></h1> 
+                <h2 class="granska_Utovare_Organisation"></h2>
+               </div>
             </div>
         </div>
         <!-- Artikel START -->
@@ -23,12 +26,13 @@
                                 <div class="granska_innehall">                            
                                 </div>
                             </div>
-                            
+                             
                            <div class="arrexempelblock granska_exempel" >
                                <h3 class="label-above">Exempel</h3>
                                <hr class="linje">
-                               <div class="kk_aj_loader"></div>                              
-                                <ul class="arrExempellist">                                    
+                                                        
+                                <ul class="arrExempellist">
+                                     <li class="kk_aj_loader"></li>                                        
                                 </ul>
                            </div>  
 
@@ -55,7 +59,14 @@
                                     
                                 </div>
                                 <div class="artsidecontainer granska_Ekonomi_mainblock">
-                                    <h3>Ekonomi</h3>
+                                    <h3>Kostnad</h3>
+                                    <div class="row">
+                                        <div class="kk_aj_loader"></div>
+                                    </div>       
+                                    
+                                </div>
+                                <div class="artsidecontainer granska_Ekonomi_mainblock">
+                                    <h3>Övrigt</h3>
                                     <div class="row">
                                         <div class="kk_aj_loader"></div>
                                     </div>       
@@ -65,42 +76,42 @@
                             <div class="artsidecontainer granska_Kontakt_mainblock">
                                 <h3>Kontakt</h3>                                             
                                 <div class="row granska_Utovare_Organisation_block">
-                                    <div class="small-12 medium-5 columns faktalabel">     
-                                        Organisation
+                                    <div class="small-12 medium-6 columns faktalabel">     
+                                        Aktör/Utövare/Grupp
                                     </div>
-                                    <div class="small-12 medium-7 columns">     
+                                    <div class="small-12 medium-6 columns">     
                                         <span class="granska_Utovare_Organisation"></span>
                                     </div>
                                 </div>
                                 <div class="row granska_Utovare_namn_block">
-                                    <div class="small-12 medium-5 columns faktalabel">     
+                                    <div class="small-12 medium-6 columns faktalabel">     
                                         Kontaktperson
                                     </div>
-                                    <div class="small-12 medium-7 columns">     
+                                    <div class="small-12 medium-6 columns">     
                                         <span class="granska_Utovare_namn"></span>
                                     </div>
                                 </div>
                                 <div class="row granska_Utovare_Adress_block">
-                                    <div class="small-12 medium-5 columns faktalabel">     
+                                    <div class="small-12 medium-6 columns faktalabel">     
                                         Adress
                                     </div>
-                                    <div class="small-12 medium-7 columns">     
+                                    <div class="small-12 medium-6 columns">     
                                         <span class="granska_Utovare_Adress"></span>
                                     </div>
                                 </div>
                                     <div class="row granska_Utovare_postort_block">
-                                    <div class="small-12 medium-5 columns faktalabel">     
+                                    <div class="small-12 medium-6 columns faktalabel">     
                                         Postort
                                     </div>
-                                    <div class="small-12 medium-7 columns">     
+                                    <div class="small-12 medium-6 columns">     
                                         <span class="granska_Utovare_postort"></span>
                                     </div>
                                 </div>                                          
                                 <div class="row granska_Utovare_tfn_block">
-                                    <div class="small-12 medium-5 columns faktalabel">     
+                                    <div class="small-12 medium-6 columns faktalabel">     
                                         Telefon
                                     </div>
-                                    <div class="small-12 medium-7 columns">     
+                                    <div class="small-12 medium-6 columns">     
                                         <span class="granska_Utovare_tfn"></span>
                                     </div>
                                 </div>
@@ -109,16 +120,16 @@
                                         E-post
                                     </div>
                                     <div class="small-12 medium-12 columns">     
-                                        <span class="granska_Utovare_epost">
+                                        <span class="granska_Utovare_epost right">
                                             </span>
                                     </div>
                                 </div>         
                                 <div class="row granska_Utovare_hemsida_block">
-                                    <div class="small-12 medium-12 columns faktalabel">     
+                                    <div class="small-12 medium-12 columns faktalabel ">     
                                        Hemsida
                                     </div>
                                     <div class="small-12 medium-12 columns">     
-                                        <span class="granska_Utovare_hemsida">
+                                        <span class="granska_Utovare_hemsida right">
                                             
                                         </span>
                                     </div>
