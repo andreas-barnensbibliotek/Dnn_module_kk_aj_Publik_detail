@@ -149,14 +149,13 @@
                                             <img src="https://simplesharebuttons.com/images/somacro/diggit.png" alt="Digg" />
                                         </a> -->
     
-                                         <!-- Email -->
-                                        <a id="shareMail" href="#">
+                                        <!-- Email -->
+                                        <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
                                             <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
                                         </a>
  
- 
                                         <!-- Facebook -->
-                                        <a id="shareFacebook" href="#" target="_blank">
+                                        <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
                                         </a>
     
