@@ -146,6 +146,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:kulturkatalogenpublik.aj.kk_aj_Publik_DetailDnn_module_kk_aj_Publik_detail.View._kk_aj_CurrentTabid">
+<summary>
+kk_aj_CurrentTabid control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="M:kulturkatalogenpublik.aj.kk_aj_Publik_DetailDnn_module_kk_aj_Publik_detail.View.Page_Load(System.Object,System.EventArgs)">
  -----------------------------------------------------------------------------
  <summary>

@@ -225,5 +225,6 @@
 
 <div id="kk_aj_conf" style="">
     <span id="kk_aj_CurrentArrid" class="kk_aj_CurrentArrid" runat="server"></span>  
-    <span id="kk_aj_CurrentPageType" class="kk_aj_CurrentPageType" runat="server"></span>  
+    <span id="kk_aj_CurrentPageType" class="kk_aj_CurrentPageType" runat="server"></span>
+     <span id="kk_aj_CurrentTabid" class="kk_aj_CurrentPageName" runat="server"></span>    
 </div>

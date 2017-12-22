@@ -30,4 +30,13 @@ Partial Public Class View
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents kk_aj_CurrentPageType As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    
+    '''<summary>
+    '''kk_aj_CurrentTabid control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents kk_aj_CurrentTabid As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 End Class

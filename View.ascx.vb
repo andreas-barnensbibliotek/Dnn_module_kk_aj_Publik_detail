@@ -45,6 +45,10 @@ Public Class View
             Dim incomingID As Integer = Request.QueryString("arrid")
             kk_aj_CurrentArrid.InnerHtml = incomingID.ToString
             kk_aj_CurrentPageType.InnerHtml = conf.getcurrentPageView(ModuleId)
+            Dim tabController As Entities.Tabs.TabController = New Entities.Tabs.TabController()
+            Dim TabInfo As DotNetNuke.Entities.Tabs.TabInfo = tabController.GetTab(TabId, 0)
+
+            kk_aj_CurrentTabid.InnerHtml = TabInfo.TabName
         Catch exc As Exception
             Exceptions.ProcessModuleLoadException(Me, exc)
         End Try

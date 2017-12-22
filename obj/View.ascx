@@ -149,16 +149,16 @@
                                             <img src="https://simplesharebuttons.com/images/somacro/diggit.png" alt="Digg" />
                                         </a> -->
     
-                                        <!-- Email -->
-                                        <a id="shareMail" href="mailto:?SubjectKulturkatalogen+V%C3%A4st+-+Arrangemang;Body=Jag+vill+dela+ett+arrangemang+fr%C3%A5n+Kulturkatalogen+V%C3%A4st%3A+ http://kulturkatalog.kivdev.se/Kulturkatalogen/ArrangemangDetail/id/213">
+                                         <!-- Email -->
+                                        <a id="shareMail" href="#">
                                             <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
                                         </a>
  
+ 
                                         <!-- Facebook -->
-                                        <a href="http://www.facebook.com/sharer.php?u=http://kulturkatalog.kivdev.se/Kulturkatalogen/ArrangemangDetail/id/213" target="_blank">
+                                        <a id="shareFacebook" href="#" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
                                         </a>
-    
     
                                         <!-- Google+ 
                                         <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
