@@ -28,7 +28,7 @@
                             </div>
                              
                            <div class="arrexempelblock granska_exempel" >
-                               <h3 class="label-above">Exempel</h3>
+                               <h3 class="arrExempellistHeader">Exempel</h3>
                                <hr class="linje">
                                                         
                                 <ul class="arrExempellist">
@@ -40,7 +40,7 @@
                         <div class="medium-4 columns">
                             <div class="granskaFaktaMainblock">
                                 <div class="artsidecontainer granska_Fakta_mainblock">
-                                    <h3>Fakta</h3>                                
+                                    <h3>Fakta</h3>                                                       
                                     <div class="row">
                                         <div class="kk_aj_loader"></div>
                                     </div>     
