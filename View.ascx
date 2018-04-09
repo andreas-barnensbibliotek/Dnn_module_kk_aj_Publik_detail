@@ -1,19 +1,18 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="kulturkatalogenpublik.aj.kk_aj_Publik_DetailDnn_module_kk_aj_Publik_detail.View" %>
 <div class="row detailblock">
     <div class="small-12 columns">
-        <div class="row">
-            <div class="medium-12 columns arrRubrikblock">
-               <div class="granska_rubrik_border">
-                <h1 class="granska_rubrik"><div class="kk_aj_loader"></div></h1> 
-                <h2 class="granska_Utovare_Organisation"></h2>
-               </div>
-            </div>
-        </div>
+       
         <!-- Artikel START -->
                 <div class="artikelwrapper level1">
                     <div class="row">
 
                         <div class="medium-8 columns artmaincontent">
+                            
+                           <div class="granska_rubrik_border">
+                                <h1 class="granska_rubrik"><div class="kk_aj_loader"></div></h1> 
+                                <h2 class="granska_Utovare_Organisation"></h2>
+                           </div>
+            
                             <div class="field field-name-field-artikelbild field-type-image field-label-hidden field-wrapper">
                                 <img class="granska_pressentationsbild" src="" />                          
                                 
@@ -155,10 +154,10 @@
                                         </a>
  
  
-                                        <!-- Facebook -->
+                                        <!-- Facebook
                                         <a id="shareFacebook" href="#" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-                                        </a>
+                                        </a> -->
     
                                         <!-- Google+ 
                                         <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
