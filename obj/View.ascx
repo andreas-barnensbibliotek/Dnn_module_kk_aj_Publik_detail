@@ -1,19 +1,18 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="kulturkatalogenpublik.aj.kk_aj_Publik_DetailDnn_module_kk_aj_Publik_detail.View" %>
 <div class="row detailblock">
     <div class="small-12 columns">
-        <div class="row">
-            <div class="medium-12 columns arrRubrikblock">
-               <div class="granska_rubrik_border">
-                <h1 class="granska_rubrik"><div class="kk_aj_loader"></div></h1> 
-                <h2 class="granska_Utovare_Organisation"></h2>
-               </div>
-            </div>
-        </div>
+       
         <!-- Artikel START -->
                 <div class="artikelwrapper level1">
                     <div class="row">
 
                         <div class="medium-8 columns artmaincontent">
+                            
+               <div class="granska_rubrik_border">
+                <h1 class="granska_rubrik"><div class="kk_aj_loader"></div></h1> 
+                <h2 class="granska_Utovare_Organisation"></h2>
+               </div>
+            
                             <div class="field field-name-field-artikelbild field-type-image field-label-hidden field-wrapper">
                                 <img class="granska_pressentationsbild" src="" />                          
                                 
@@ -28,7 +27,7 @@
                             </div>
                              
                            <div class="arrexempelblock granska_exempel" >
-                               <h3 class="label-above">Exempel</h3>
+                               <h3 class="arrExempellistHeader">Exempel</h3>
                                <hr class="linje">
                                                         
                                 <ul class="arrExempellist">
@@ -40,37 +39,37 @@
                         <div class="medium-4 columns">
                             <div class="granskaFaktaMainblock">
                                 <div class="artsidecontainer granska_Fakta_mainblock">
-                                    <h3>Fakta</h3>                                
+                                    <h3>Fakta</h3>                                                       
                                     <div class="row">
                                         <div class="kk_aj_loader"></div>
                                     </div>     
                                 </div>
+								<div class="artsidecontainer granska_Publik_mainblock">
+                                    <h3>Publik</h3>
+                                    <div class="row">
+                                        <div class="kk_aj_loader"></div>
+                                    </div>                                            
+                                </div>
+								
                                 <div class="artsidecontainer granska_lokal_mainblock">
                                     <h3>Lokal</h3>
                                     <div class="row">
                                         <div class="kk_aj_loader"></div>
                                     </div>    
                                 </div>
-                                <div class="artsidecontainer granska_Publik_mainblock">
-                                    <h3>Publik</h3>
-                                    <div class="row">
-                                        <div class="kk_aj_loader"></div>
-                                    </div>        
-                                    
-                                </div>
+                                
                                 <div class="artsidecontainer granska_Ekonomi_mainblock">
                                     <h3>Kostnad</h3>
                                     <div class="row">
                                         <div class="kk_aj_loader"></div>
-                                    </div>       
-                                    
+                                    </div>     
                                 </div>
+								
                                 <div class="artsidecontainer granska_Ekonomi_mainblock">
                                     <h3>Övrigt</h3>
                                     <div class="row">
                                         <div class="kk_aj_loader"></div>
-                                    </div>       
-                                    
+                                    </div>    
                                 </div>
                             </div>
                             <div class="artsidecontainer granska_Kontakt_mainblock">
@@ -155,10 +154,10 @@
                                         </a>
  
  
-                                        <!-- Facebook -->
+                                        <!-- Facebook
                                         <a id="shareFacebook" href="#" target="_blank">
                                             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-                                        </a>
+                                        </a> -->
     
                                         <!-- Google+ 
                                         <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
@@ -225,5 +224,6 @@
 
 <div id="kk_aj_conf" style="">
     <span id="kk_aj_CurrentArrid" class="kk_aj_CurrentArrid" runat="server"></span>  
-    <span id="kk_aj_CurrentPageType" class="kk_aj_CurrentPageType" runat="server"></span>  
+    <span id="kk_aj_CurrentPageType" class="kk_aj_CurrentPageType" runat="server"></span>
+     <span id="kk_aj_CurrentTabid" class="kk_aj_CurrentPageName" runat="server"></span>    
 </div>
